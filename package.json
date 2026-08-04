@@ -1,0 +1,14 @@
+{
+  "name": "performance-testing-sentinelops",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "health:load": "k6 run scripts/health/load.js",
+    "health:stress": "k6 run scripts/health/stress.js",
+    "health:spike": "k6 run scripts/health/spike.js",
+    "health:soak": "k6 run scripts/health/soak.js",
+    "health:rampup": "k6 run scripts/health/rampup.js",
+    "applications:create": "k6 run scripts/applications/create.js",
+    "deployments:create": "k6 run scripts/deployments/create.js"
+  }
+}

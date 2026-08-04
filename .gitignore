@@ -1,0 +1,15 @@
+# k6 generated outputs
+reports/*.json
+reports/*.html
+reports/*.csv
+
+# Environment files
+.env
+.env.*
+!.env.example
+
+# Tooling
+node_modules/
+.vscode/
+.DS_Store
+*.log
